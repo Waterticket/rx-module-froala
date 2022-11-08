@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+	<grants>
+	</grants>
+	<actions>
+		<!-- 관리자 액션 -->
+		<action name="dispFroalaAdminConfig" class="Controllers\Admin" menu_name="froala" admin_index="true" />
+		<action name="procFroalaAdminInsertConfig" class="Controllers\Admin" />
+		
+		<action name="procFroalaFileUpload" class="Controllers\File" standalone="true" />
+	</actions>
+	<menus>
+		<menu name="froala" type="all">
+			<title xml:lang="ko">Froala Editor 4</title>
+		</menu>
+	</menus>
+</module>
