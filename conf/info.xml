@@ -2,8 +2,8 @@
 <module version="0.2">
 	<title xml:lang="ko">Froala Editor 4</title>
 	<description xml:lang="ko">프로알라 에디터 4 에디터를 위한 모듈입니다</description>
-	<version>1.0.0</version>
-	<date>2022-11-08</date>
+	<version>1.1.0</version>
+	<date>2022-11-19</date>
 	<category>service</category>
 	<author email_address="matthew218@naver.com" link="">
 		<name xml:lang="ko">Waterticket</name>
