@@ -20,7 +20,7 @@ class File extends Base
 		$oFileController->procFileUpload();
 
 		Context::setResponseMethod('JSON');
-		$this->add('link', $oFileController->get('download_url'));
+		$this->add('link', '/'.$oFileController->get('download_url'));
 		$this->add('file-srl', $oFileController->get('file_srl'));
 		$this->add('upload-target-srl', $oFileController->get('upload_target_srl'));
 	}
